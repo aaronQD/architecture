@@ -30,7 +30,7 @@ Publication Servers which implement level 1 support are dynamic apps that usuall
 
 - Ability to obfuscate resources and provide access control over the manifest and its resources
 - Search within a publication or across all publications
-- [Positions List API](../positions) per publication
+- [Positions List API](../models/locators/positions) per publication
 - Dictionary/Index API per publication
 
 ## Storing and Accessing Publications
@@ -51,13 +51,3 @@ All implementations are free to select their preferred approach as long as they 
 ## Web Origin
 
 One of the most challenging part of distributing Web Publications is tied to the security model of the Web. [A separate document dedicated to Web Origin](origin.md) is available to tackle this specific issue.
-
-
-<style>
-.rfc {
-    color: #d55;
-    font-variant: small-caps;
-    font-style: normal;
-    font-weight: normal;
-}
-</style>
